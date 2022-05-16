@@ -55,7 +55,7 @@ class LoginActivity : AppCompatActivity(), LoginView {
     }
 
     private fun startMainActivity() {
-        if (!isSeenOnboarding()) {
+        if (isSeenOnboarding()) {
             startActivity(Intent(this, MainActivity::class.java))
         } else {
             startActivity(Intent(this, OnboardingActivity::class.java))

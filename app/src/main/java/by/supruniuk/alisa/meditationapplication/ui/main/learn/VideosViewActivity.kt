@@ -27,10 +27,12 @@ class VideosViewActivity : AppCompatActivity() {
     }
 
     private fun configureVideoView(video: VideoModel) {
-        binding.videoView.setVideoURI(Uri.parse(video.url))
-        mediaController = MediaController(this)
+        mediaController = MediaController(this).apply {
+            setAnchorView(binding.videoView)
+        }
         binding.videoView.setMediaController(mediaController)
-        binding.videoView.requestFocus(0)
+        binding.videoView.setVideoURI(Uri.parse(video.url))
+        binding.videoView.requestFocus()
         binding.videoView.start()
     }
 

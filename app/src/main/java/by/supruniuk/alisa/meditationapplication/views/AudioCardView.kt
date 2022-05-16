@@ -28,5 +28,5 @@ class AudioCardView @JvmOverloads constructor(
             field = value
         }
 
-    var image: ImageView = binding.image
+    var image: ImageView = binding.imageView
 }
