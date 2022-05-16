@@ -35,34 +35,29 @@ class OnboardingActivity : AppCompatActivity() {
         onboardingItemsAdapter = OnboardingItemsAdapter(
             listOf(
                 OnboardingItem(
-                    onboardingImage = R.drawable.img_hello,
-                    title = "Welcome to GENO",
+                    onboardingImage = R.drawable.welcom_page,
+                    title = "Welcome to INSIDE YOU",
                     description = "We'll show you how to train your mind for happier, healthier life."
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.img_medi,
+                    onboardingImage = R.drawable.simple_meditation,
                     title = "Meditation made simple!",
                     description = "It's okay if you've never meditated before"
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.img_book,
+                    onboardingImage = R.drawable.breath_exercise,
                     title = "Breathe exercise",
                     description = "Learn how to build your resilience using your own breathe"
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.img_communi,
-                    title = "Community",
-                    description = "You can reach out to anyone at anytime."
-                ),
-                OnboardingItem(
-                    onboardingImage = R.drawable.img_paint,
+                    onboardingImage = R.drawable.study_to_do_it,
                     title = "Courses for absolute beginners ",
                     description = "In fact, we made a quick video to help you learn the basics"
                 ),
                 OnboardingItem(
-                    onboardingImage = R.drawable.ready,
-                    title = "Ready!",
-                    description = "Now, get ready to sit back and enjoy GENO application"
+                    onboardingImage = R.drawable.mind,
+                    title = "You can do it where you want.\nEnjoy the app and be healthy.",
+                    description = "Now, get ready to sit back and enjoy INSIDE YOU application"
                 )
             )
         )
