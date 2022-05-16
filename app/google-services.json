@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "266833678598",
+    "project_id": "meditationapplication-a47c5",
+    "storage_bucket": "meditationapplication-a47c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266833678598:android:9385a89e3a099d64de4e87",
+        "android_client_info": {
+          "package_name": "by.supruniuk.alisa.meditationapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266833678598-h6rmloghqrlrs65fvhbln5a12hd96ohq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "by.supruniuk.alisa.meditationapplication",
+            "certificate_hash": "b0d674c169dfb775d743b27d2d4d362640e9b2f7"
+          }
+        },
+        {
+          "client_id": "266833678598-5j9j15v0hk1g5qsk4km4f8n63se23asa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmWqAHK4Iy0NN7YNZGYtxncEK20qP93rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266833678598-5j9j15v0hk1g5qsk4km4f8n63se23asa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

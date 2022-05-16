@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MeditationApplication/app/src/main/res/drawable/ic_camera.xml" value="0.1465" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_breath.xml" value="0.1911231884057971" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_forum_new_post.xml" value="0.1911231884057971" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_login_add_user.xml" value="0.1911231884057971" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_main.xml" value="0.1911231884057971" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_meditation.xml" value="0.1911231884057971" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_video.xml" value="0.12360688956433637" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/activity_videos_list.xml" value="0.12360688956433637" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/audio_card_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/fragment_breath.xml" value="0.1" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/fragment_home.xml" value="0.1118659420289855" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/fragment_meditation.xml" value="0.1" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/item_meditation_card.xml" value="0.1" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/profile_layout.xml" value="0.1" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/register_ativity.xml" value="0.1" />
+        <entry key="..\:/MeditationApplication/app/src/main/res/layout/report.xml" value="0.1118659420289855" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
