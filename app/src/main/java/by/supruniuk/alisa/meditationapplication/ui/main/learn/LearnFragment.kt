@@ -8,8 +8,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import by.supruniuk.alisa.meditationapplication.databinding.FragmentLearnBinding
+import by.supruniuk.alisa.meditationapplication.models.VideoModel
 
-class LearnFragment : Fragment(), LearnView, MyAdapter.ItemClickListener {
+class LearnFragment : Fragment(), LearnView {
     lateinit var binding: FragmentLearnBinding
     private val presenter = LearnPresenter()
 
@@ -25,13 +26,14 @@ class LearnFragment : Fragment(), LearnView, MyAdapter.ItemClickListener {
         super.onViewCreated(view, savedInstanceState)
         presenter.attachView(this)
         binding.recyclerView1.layoutManager = LinearLayoutManager(context)
-        val adapter = MyAdapter(presenter.getData(), this)
+        val adapter = LearnAdapter { onItemClick(it) }
+        adapter.submitList(presenter.getData())
         binding.recyclerView1.adapter = adapter
     }
 
-    override fun onItemClick(position: Int) {
+    private fun onItemClick(item: VideoModel) {
         val intent = Intent(context, VideosViewActivity::class.java)
-        intent.putExtra(PLAY_VIDEO, presenter.getData()[position])
+        intent.putExtra(PLAY_VIDEO, item)
         startActivity(intent)
     }
 }

@@ -1,4 +1,4 @@
-package by.supruniuk.alisa.meditationapplication
+package by.supruniuk.alisa.meditationapplication.ui.main.onboarding
 
 import android.content.Context
 import android.content.Intent
@@ -13,6 +13,8 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
+import by.supruniuk.alisa.meditationapplication.MainActivity
+import by.supruniuk.alisa.meditationapplication.R
 import com.google.android.material.button.MaterialButton
 
 class OnboardingActivity : AppCompatActivity() {
@@ -90,7 +92,7 @@ class OnboardingActivity : AppCompatActivity() {
     }
 
     private fun navigateToHomeActivity() {
-        startActivity(Intent(applicationContext,MainActivity::class.java))
+        startActivity(Intent(applicationContext, MainActivity::class.java))
         finish()
     }
 

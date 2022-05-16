@@ -19,7 +19,7 @@
             android:name=".ui.main.learn.VideosViewActivity"
             android:exported="true" />
         <activity
-            android:name=".OnboardingActivity"
+            android:name=".ui.main.onboarding.OnboardingActivity"
             android:exported="false" />
         <activity
             android:name="by.supruniuk.alisa.meditationapplication.ui.main.login.LoginActivity"

@@ -8,7 +8,7 @@ import android.text.TextUtils
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import by.supruniuk.alisa.meditationapplication.MainActivity
-import by.supruniuk.alisa.meditationapplication.OnboardingActivity
+import by.supruniuk.alisa.meditationapplication.ui.main.onboarding.OnboardingActivity
 import by.supruniuk.alisa.meditationapplication.databinding.ActivityLoginBinding
 import by.supruniuk.alisa.meditationapplication.ui.main.register.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth

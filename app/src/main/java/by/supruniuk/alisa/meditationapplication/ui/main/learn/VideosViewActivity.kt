@@ -5,20 +5,20 @@ import android.os.Bundle
 import android.widget.MediaController
 import androidx.appcompat.app.AppCompatActivity
 import by.supruniuk.alisa.meditationapplication.databinding.ActivityVideoBinding
-import by.supruniuk.alisa.meditationapplication.models.Videos
+import by.supruniuk.alisa.meditationapplication.models.VideoModel
 
 const val PLAY_VIDEO = "play_video"
 
 class VideosViewActivity : AppCompatActivity() {
     private lateinit var binding: ActivityVideoBinding
     private var mediaController: MediaController? = null
-    private lateinit var videos: Videos
+    private lateinit var videos: VideoModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityVideoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        videos = intent.getSerializableExtra(PLAY_VIDEO) as Videos
+        videos = intent.getSerializableExtra(PLAY_VIDEO) as VideoModel
 
         configureVideoView(videos)
 
@@ -26,7 +26,7 @@ class VideosViewActivity : AppCompatActivity() {
         binding.textVideoDescription.text = videos.description
     }
 
-    private fun configureVideoView(video: Videos) {
+    private fun configureVideoView(video: VideoModel) {
         binding.videoView.setVideoURI(Uri.parse(video.url))
         mediaController = MediaController(this)
         binding.videoView.setMediaController(mediaController)

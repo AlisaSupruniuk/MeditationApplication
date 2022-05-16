@@ -1,4 +1,4 @@
-package by.supruniuk.alisa.meditationapplication
+package by.supruniuk.alisa.meditationapplication.ui.main.onboarding
 
 data class OnboardingItem(
     val onboardingImage: Int,
